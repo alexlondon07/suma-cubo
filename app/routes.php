@@ -11,6 +11,7 @@
 |
 */
 
+Route::post('result', 'FunctionController@result');
 Route::get('/', function()
 {
 	return View::make('hello');

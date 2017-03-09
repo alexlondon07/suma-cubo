@@ -1,25 +1,41 @@
 ## Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/downloads.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Version 4.2
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, and caching.
+La prueba consiste en un Coding Challenge tomado de Hackerrank. Lo puede encontrar en el siguiente Link (https://www.hackerrank.com/challenges/cube-summation). Cube Summation
+ 
+ Debe escribir el programa en el lenguaje de programación PHP y puede usar cualquier framework de PHP para lograrlo, también puede usar cualquier mecanismo para la entrada y salida de datos del programa en esta etapa.
 
-Laravel aims to make the development process a pleasing one for the developer without sacrificing application functionality. Happy developers make the best code. To this end, we've attempted to combine the very best of what we have seen in other web frameworks, including frameworks implemented in other languages, such as Ruby on Rails, ASP.NET MVC, and Sinatra.
+### Documentación
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Frameworks o paradigmas de programación usada: Programación orientada a objetos POO
 
-## Official Documentation
+Descripción de cada una de las capas: MVC
 
-Documentation for the entire framework can be found on the [Laravel website](http://laravel.com/docs).
 
-### Contributing To Laravel
+### Explicación
+2
+4 5
+UPDATE 2 2 2 4
+QUERY 1 1 1 3 3 3
+UPDATE 1 1 1 23
+QUERY 2 2 2 4 4 4
+QUERY 1 1 1 3 3 3
 
-**All issues and pull requests should be filed on the [laravel/framework](http://github.com/laravel/framework) repository.**
 
-### License
+Primer caso de prueba, se nos da un cubo de 4 * 4 * 4 y 5 consultas. Inicialmente todas las células (1,1,1) (4,4,4) son 0.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+ACTUALIZACIÓN 2 2 2 4 hace que la célula (2,2,2) = 4
+
+CONSULTA 1 1 1 3 3 3. Como (2,2,2) se actualiza a 4 y el resto son todos 0. La respuesta a esta pregunta es 4.
+
+ACTUALIZACIÓN 1 1 1 23. actualizaciones de la célula (1,1,1) a 23. CONSULTA 2 2 2 4 4 4.
+
+Sólo la célula (1,1,1) y (2,2,2) son cero y (1,1,1) no es entre (2,2,2) y (4,4,4). Por lo tanto, la respuesta es 4.
+
+CONSULTA 1 1 1 3 3 3. 2 células son cero y la suma 23 + 4 = 27.
+
+### Pagina web
+Link (https://alexlondon07.github.io/)
+
+
