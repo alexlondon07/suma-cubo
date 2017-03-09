@@ -34,17 +34,16 @@ Sólo la célula (1,1,1) y (2,2,2) son cero y (1,1,1) no es entre (2,2,2) y (4,4
 
 CONSULTA 1 1 1 3 3 3. 2 células son cero y la suma 23 + 4 = 27.
 
- ### Cube.php
+ ### Cube
  Esta clase se encarga de llevar de construir nuestra matriz 3-D y realizar actualizar y suma de los puntos dados de nuestra areglo
 
- ### FunctionController.php
+ ### FunctionController
  El contralador FunctionController se encarga de realizar toda la lógica de nuestra aplicaciónrix.php** para calcular las respuestas que serán dadas al usuario.
 
-
- ### Vista hello.blade.php
+ ### Vista hello.blade
  Aqui encontramos la interfaz de usuario de nuestra aplicación, en la cual vamos a ingresa nuestros datos
 
- ## Vista out.blade.php
+ ### Vista out.blade
  Aqui en esta vista tenemos el resultado de nuestra secuencia
 
 ### Pagina web
