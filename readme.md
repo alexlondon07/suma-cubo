@@ -12,7 +12,6 @@ Frameworks o paradigmas de programación usada: Programación orientada a objet
 
 Descripción de cada una de las capas: MVC
 
-
 ### Explicación
 2
 4 5
@@ -34,6 +33,19 @@ ACTUALIZACIÓN 1 1 1 23. actualizaciones de la célula (1,1,1) a 23. CONSULTA 2 
 Sólo la célula (1,1,1) y (2,2,2) son cero y (1,1,1) no es entre (2,2,2) y (4,4,4). Por lo tanto, la respuesta es 4.
 
 CONSULTA 1 1 1 3 3 3. 2 células son cero y la suma 23 + 4 = 27.
+
+ ### Cube.php
+ Esta clase se encarga de llevar de construir nuestra matriz 3-D y realizar actualizar y suma de los puntos dados de nuestra areglo
+
+ ### FunctionController.php
+ El contralador FunctionController se encarga de realizar toda la lógica de nuestra aplicaciónrix.php** para calcular las respuestas que serán dadas al usuario.
+
+
+ ### Vista hello.blade.php
+ Aqui encontramos la interfaz de usuario de nuestra aplicación, en la cual vamos a ingresa nuestros datos
+
+ ## Vista out.blade.php
+ Aqui en esta vista tenemos el resultado de nuestra secuencia
 
 ### Pagina web
 Link (https://alexlondon07.github.io/)
