@@ -38,7 +38,7 @@ CONSULTA 1 1 1 3 3 3. 2 células son cero y la suma 23 + 4 = 27.
  Esta clase se encarga de llevar de construir nuestra matriz 3-D y realizar actualizar y suma de los puntos dados de nuestra areglo
 
  ### FunctionController
- El contralador FunctionController se encarga de realizar toda la lógica de nuestra aplicaciónrix.php** para calcular las respuestas que serán dadas al usuario.
+ El controlador FunctionController se encarga de realizar toda la lógica de nuestra aplicación para calcular las respuestas que serán dadas al usuario.
 
  ### Vista hello.blade
  Aqui encontramos la interfaz de usuario de nuestra aplicación, en la cual vamos a ingresa nuestros datos
